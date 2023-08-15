@@ -1,0 +1,191 @@
+/* begin reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+img {
+    display: block;
+}
+/* end reset */
+
+/* utility classes */
+.nowrap {
+    white-space: nowrap;
+}
+.offscreen {
+    position: absolute;
+    /* left: -10000; */
+}
+/* end utility */
+body {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, steelblue,white);
+}
+
+.container {
+    background-color: antiquewhite;
+    background-image: url("world.jpg");
+    background-repeat: no-repeat;
+    text-emphasis-position: top;
+    background-size: cover;
+}
+
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.h1 {
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 5px 5px 10px black;
+}
+
+.pic-edit {
+    width: 35%;
+    margin-bottom: 0.5rem;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pic-edit img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double black;
+    border-radius: 50%;
+}
+/* section 2 */
+.main {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(245, 177, 7, 0.603);
+}
+
+.main-nav {
+    padding: 2 0 rem;
+    margin: 0px;
+    text-align: center;
+}
+
+.unorder {
+    list-style-type: none;
+    margin: 1rem auto;
+    padding: 0%;
+}
+
+.unorder li {
+    display: inline-block;
+    font-size: larger;
+    padding-left: 5rem;
+}
+
+.unorder li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.unorder li a:visited {
+    color: red;
+}
+
+.unorder li a:hover {
+    color: teal;
+    text-decoration: underline;
+}
+
+.unorder li a:active {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+#home {
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.design {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    margin-left: 0.5rem;
+    text-indent: 2rem;
+    line-height: 2.5rem;
+}
+
+#about {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p > a {
+    text-decoration: none;
+    color: blue;
+}
+
+p > a:visited {
+    color: red;
+}
+
+p > a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+p > a:active {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+
+footer {
+    padding: auto;
+}
+
+.image {
+    display: inline-block;
+    margin-right: auto;
+    padding-left: 3rem;
+}
+
+.image img:hover {
+    background-color: aliceblue;
+}
+
+.to_top a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.to_top a:visited {
+    color: red;
+}
+
+.to_top a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.to_top a:active {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+}

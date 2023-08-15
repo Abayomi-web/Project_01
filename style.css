@@ -1,0 +1,294 @@
+/* STYLE HTML */
+/* start reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* end reset */
+body {
+    font-size: 1.5rem;
+    font-family: monospace;
+    min-height: 200vh;
+    background-image: url('style.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+.sign-up {
+    width: 250px;
+    height: auto;
+    padding: 1rem;
+    margin-top: 70px;
+    margin-left: 90px;
+    margin: 0 auto;
+    background-color: hsla(0, 0%, 0%, 0.459);
+    
+}
+
+.style {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0rem 6rem 0rem 0rem;
+    color: hsla(60, 100%, 50%, 0.733);
+    white-space: nowrap;
+}
+
+.form {
+    margin: 0;
+    padding: auto;
+}
+
+p {
+   padding: auto;
+   margin-top: 1rem; 
+}
+
+input {
+    width: 200px;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px 0;
+    background-color: hsla(0, 0%, 0%, 0.096);
+    color: white;
+    border-color: aliceblue;
+    border-top: 2px;
+    border-right: 0;
+    border-left: 0;
+    transition: border 5s;
+    outline: none;
+}
+
+:placeholder-shown:hover {
+    background-color: hsla(208, 100%, 97%, 0.692);
+}
+
+::-webkit-input-placeholder {
+    color: grey;
+}
+
+.button {
+    margin: 1rem 0 1rem 0;
+    padding: 1rem 2.5rem;
+    background-origin: padding-box;
+    border-radius: 35%;
+    box-shadow: 1px 2px 1px 2px hsla(16, 100%, 50%, 0.452);
+    background-color: hsla(208, 100%, 97%, 0.74);
+    font-weight: 800;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button:hover {
+    background-color: hsla(180, 100%, 50%, 0.548);
+}
+
+.aside {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: orangered;
+}
+
+.aside a {
+    text-decoration: none;
+    color: hsla(240, 100%, 50%, 0.664);
+    cursor: pointer;
+}
+
+.aside a:visited {
+    color: hsla(0, 100%, 50%, 0.466);
+}
+
+.aside a:hover {
+    color:hsla(60, 100%, 50%, 0.507)
+}
+
+.aside a:active {
+    color: hsla(60, 100%, 50%, 0.534);
+}
+
+ /* CONFIRM HTML*/
+/* start reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+/* end reset */
+.body {
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 200vh;
+    background-image: url('music.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+    background-attachment: fixed;
+}
+
+.color {
+    color: rgba(0, 255, 213, 0.603);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.login {
+    color: hsla(60, 100%, 50%, 0.719);
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.forgot {
+    font-size: 1rem;
+    margin-right: 2rem;
+    font-weight: 600;
+}
+
+.forgot a {
+    color: hsla(240, 100%, 50%, 0.795);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.forgot a:visited {
+    color: hsla(0, 100%, 50%, 0.63);
+}
+
+.forgot a:hover {
+    color: hsla(60, 100%, 50%, 0.473);
+}
+
+.forgot a:active {
+    color: aliceblue;
+}
+
+/*  WELCOME HTML */
+/* start reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body_class {
+    font-size: 1.9rem;
+    font-family: fantasy;
+    background-image: linear-gradient(to top, black, white, red);
+}
+
+.welcome {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;  
+    padding-top: 4rem;
+}
+
+.welcome > marquee {
+    text-shadow: 1px 2px 1px 2px aliceblue;
+}
+
+.animatedLines {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.animatedLines .Lines:nth-child(1) {
+    animation-delay: .1s;
+    background-color: red;
+}
+
+.animatedLines .Lines:nth-child(2) {
+    animation-delay: .2s;
+    background-color: yellow;
+}
+
+.animatedLines .Lines:nth-child(3) {
+    animation-delay: .3s;
+    background-color: green;
+}
+
+.animatedLines .Lines:nth-child(4) {
+    animation-delay: .4s;
+    background-color: purple;
+}
+
+.animatedLines .Lines:nth-child(5) {
+    animation-delay: .3s;
+    background-color: orangered;
+}
+
+.animatedLines .Lines:nth-child(6) {
+    animation-delay: .2s;
+    background-color: peru;
+}
+
+.animatedLines .Lines:nth-child(7) {
+    animation-delay: .1s;
+    background-color: hsla(0, 0%, 0%, 0.459);
+}
+
+.animatedLines .Lines {
+    list-style: none;
+    width: 5px;
+    height: 10px;
+    animation: animatedBars .5s infinite alternate;
+}
+
+@keyframes animatedBars {
+    0% {
+        transform: scaleY(1);
+    }
+
+    25% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(1);
+    }
+
+    100% {
+        transform: scaleY(6);
+    }
+}
+
+.button_new {
+    margin: 1rem 0 1rem 0;
+    padding: 1rem 2.5rem;
+    background-origin: padding-box;
+    border-radius: 35%;
+    box-shadow: 1px 2px 1px 2px hsla(16, 100%, 50%, 0.452);
+    background-color: hsla(208, 100%, 97%, 0.74);
+    font-weight: 800;
+    font-size: large; 
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.button_new:hover {
+    background-color: hsla(54, 94%, 49%, 0.74);
+}
